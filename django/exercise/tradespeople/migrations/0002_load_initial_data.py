@@ -24,12 +24,12 @@ def forwards(apps, _):
     logger.info(f"Created {len(companies)} Company instances.")
 
     tradespeople_to_create = []
-    for company in enumerate(companies):
+    for company in companies:
         for idx in range(3):
             tradespeople_to_create.append(
                 Tradesperson(
                     first_name="Employee",
-                    second_name=f"#{idx}",
+                    last_name=f"#{idx}",
                     company=company,
                 )
             )
