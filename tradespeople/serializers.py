@@ -1,4 +1,2 @@
-
-
-class CompanyViewSetSerializer:
+class TradespersonViewSetSerializer:
     pass

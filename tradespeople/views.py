@@ -1,4 +1,2 @@
-
-
-class CompanyViewSet:
+class TradespersonViewSet:
     pass
